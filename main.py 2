@@ -1,0 +1,29 @@
+print("TAREFA 1")
+print(" ")
+name = input("Qual o seu nome?")
+age = int(input("Quantos anos você tem?"))
+
+next_year_age = age + 1
+
+print("Olá,", name, "você terá ", next_year_age, " anos em um ano!")
+print("")
+print("TAREFA 2")
+print("")
+vogais = "aeiouAEIOU"
+vogais_qnt = 0
+frase = input("Escreva uma frase e o mostrarei o número de vogaís dentro dela!")
+for letras in frase:
+    if letras in vogais:
+        vogais_qnt += 1
+
+print(vogais_qnt)
+print("")
+print("TAREFA 3")
+print("")
+
+#o código irá exibir o número 21
+    
+x = 5
+x = x + 2
+x *= 3
+print(x)
