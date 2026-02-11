@@ -1,0 +1,12 @@
+import random
+
+
+
+caracteres = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+
+tamanho = int(input("Digite o tamanho da sua senha:"))
+senhaGerada = ""
+
+for i in range(tamanho):
+    senhaGerada += random.choice(caracteres)
+print("Sua senha gerada automática é:", senhaGerada)
